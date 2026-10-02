@@ -6,6 +6,7 @@ int main() {
     int sqr_reactor_core = reactor_core * reactor_core;
 
 
+    printf("[");
     printf("%d", reactor_core);
     printf(", ");
     printf("%d", dbl_reactor_core);
