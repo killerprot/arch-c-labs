@@ -10,10 +10,10 @@ int main() {
     int total_days = years * DAYS_IN_YEAR;
     int total_hours = total_days * HOURS_IN_DAY;
 
-    long long total_seconds = (long long)total_hours * SECONDS_IN_HOUR;
+    int total_seconds = total_hours * SECONDS_IN_HOUR;
 
 
-    printf("Тики: %lld|Часы: %d|Дни: %d|Годы: %d\n",
+    printf("Тики: %d|Часы: %d|Дни: %d|Годы: %d\n",
         total_seconds, total_hours, total_days, years);
 
     return 0;
