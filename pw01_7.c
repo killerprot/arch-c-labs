@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// Функции POST-диагностики модулей
+
 void load_mem() {
     printf("MEM_OK");
 }

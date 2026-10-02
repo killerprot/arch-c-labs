@@ -5,10 +5,10 @@ int main() {
     int days_per_year = 365;
     int total_days;
 
-    // Вычисление общего количества дней
+
     total_days = years * days_per_year;
 
-    // Вывод результатов на экран
+ 
     printf("YEARS = %d\n", years);
     printf("DAYS_PER_YEAR = %d\n", days_per_year);
     printf("TOTAL_DAYS = %d\n", total_days);
